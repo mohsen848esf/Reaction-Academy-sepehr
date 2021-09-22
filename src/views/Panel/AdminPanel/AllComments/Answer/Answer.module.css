@@ -1,0 +1,15 @@
+.answerButton {
+    font-size: 9px !important;
+    background: var(--footerGreen);
+    border: none !important;
+  }
+  
+  .btnColor {
+    background: var(--mainGreen) !important;
+    border: none !important;
+  }
+  .areaSize {
+    min-height: 35vh !important;
+    margin-bottom: 5px;
+  }
+  

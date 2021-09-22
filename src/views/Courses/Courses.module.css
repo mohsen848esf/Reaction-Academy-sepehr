@@ -1,0 +1,20 @@
+/* appear Frame */
+.transitionAppear {
+    opacity: 0.01;
+}
+
+.transitionAppearActive {
+    opacity: 1;
+    transition: opacity 3000ms ease;
+}
+.bigBtnGold {
+    background:var(--mainGold)!important;
+    color:var(--mainWhite)!important;
+    font-size: 0.8rem !important;
+    padding: 7px 23px !important;
+    outline:1px solid var(--mainGold)!important;
+}
+.bigBtnGold:hover {
+    background-color: var(--mainWhite)!important;
+    color:var(--mainGold)!important;
+}

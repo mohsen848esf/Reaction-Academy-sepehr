@@ -1,0 +1,30 @@
+.smallBtnGold {
+    border: 1px solid transparent;
+    background-color: var(--mainGold);
+    color: var(--mainWhite);
+    border-radius: 10px;
+}
+
+.btnWhite {
+    transition: 0.2s !important;;
+    outline:1px solid var(--thirdBlack);
+    color:var(--mainGold)!important;
+    font-size: 0.8rem !important;
+}
+
+.btnWhite:hover {
+    background-color: var(--mainGold);
+    color:var(--mainWhite)!important;
+    outline:1px solid var(--mainGold);
+}
+.bigBtnGold {
+    background:var(--mainGold)!important;
+    color:var(--mainWhite)!important;
+    font-size: 0.8rem !important;
+    padding: 10px 13px !important;
+    outline:1px solid var(--mainGold)!important;
+}
+.bigBtnGold:hover {
+    background-color: var(--mainWhite)!important;
+    color:var(--mainGold)!important;
+}

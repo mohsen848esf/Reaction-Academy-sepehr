@@ -1,0 +1,10 @@
+/* .picBackground {
+    background-color: var(--mainGrey);
+    height: 100%;
+} */
+.cardText {
+  font-size: 0.9rem;
+}
+.courseCard {
+  box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.068);
+}

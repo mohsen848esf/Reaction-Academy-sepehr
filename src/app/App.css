@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  direction: rtl;
+}
+body {
+  font-family: IranSans !important;
+  background-color: var(--backWhite) !important;
+  color: var(--mainBlack);
+}

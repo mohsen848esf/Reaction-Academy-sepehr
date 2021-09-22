@@ -1,0 +1,58 @@
+.areaSize {
+  min-height: 30vh !important;
+  max-height: 40vh !important;
+  min-width: 44% !important;
+  margin-bottom: 5px;
+}
+
+.newsSection {
+  background-color: #fff;
+}
+
+/* pic upload css */
+.uploadPic {
+  position: relative;
+  text-align: right;
+}
+
+.proPic {
+  width: 45%;
+  padding: 11px 0;
+  color: rgb(50, 214, 214);
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+  display: none;
+}
+
+.picLable {
+  display: flex;
+  background: url("../../../../../../assets/img/icons/upload.png") #fff
+    no-repeat 10% 30%;
+  background-size: 50px;
+  width: 130px;
+  padding: 12px 14px;
+  font-size: 16px;
+  color: #379ff0;
+  border-radius: 7px;
+  text-align: right;
+  box-shadow: 3px 3px 6px rgba(7, 110, 110, 0.151);
+  cursor: pointer;
+}
+
+.fileTitle {
+  font-size: 1rem !important;
+}
+
+.topicRadius {
+  border-radius: 0 7px 7px 0 !important;
+}
+
+.editButton {
+  font-size: 12px !important;
+  background: var(--mainGreen);
+  border: none !important;
+}
+.newsImg {
+  width: 35%;
+  height: 35%;
+}

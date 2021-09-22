@@ -1,0 +1,38 @@
+.tableHead {
+  background: var(--footerGreen);
+  color:var(--mainWhite);
+  border-radius: 10px!important;
+  font-size: 14px!important;
+}
+.tableBody {
+  font-size: 13px!important;
+  color:var(--secondBlack);
+}
+.bagecolor {
+  background-color:var(--mainGreen);
+}
+.editButton {
+  font-size: 9px !important;
+  background: var(--mainGreen);
+  border: none !important;
+}
+.deleteButton {
+  font-size: 9px !important;
+  background: var(--mainDanger);
+  border: none !important;
+}
+.capacity {
+  font-size: 12px !important;
+}
+
+/* ========================================================= */
+
+/* appear Frame */
+.transitionAppear {
+opacity: 0.01;
+}
+
+.transitionAppearActive {
+opacity: 1;
+transition: opacity 3000ms ease;
+}

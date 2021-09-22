@@ -1,0 +1,75 @@
+.footer {
+    clip-path: polygon(0px 10%, 10% 8%, 20% 6%, 30% 4%, 40% 2%, 49.93% 3px, 60% 2%, 70% 4%, 80% 6%, 90% 8%, 100% 10%, 100% 100%, 0px 100%);
+    background-color: var(--footerGreen);
+    color: var(--mainWhite);
+}
+
+.footer li {
+    list-style: none;
+}
+
+.linkHolder {
+    border:1px solid red;
+}
+.link {
+    margin-right: -80px;
+}
+@media only screen and (max-width: 768px) {
+    .link {
+        margin-right: 0px;
+    }
+}
+.Tamas {
+    font-size: 0.8rem!important;
+}
+
+.footerUl {
+    font-size: 0.8rem!important;
+    /* margin-top: 10px; */
+}
+
+.footerUl li::before {
+    content: "\2022";
+    color: orange;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    position: relative;
+    top:6px;
+}
+
+.footerBtn {
+    background-color: var(--mainGold);
+    color: var(--mainWhite);
+    border: none;
+    font-size:0.7rem;
+    border-radius: 0 10px 10px 0 !important;
+}
+
+.footerInput{
+    border-radius: 5px;
+    border-radius: 10px 0 0 10px !important;
+    font-size:0.7rem;  
+}
+
+.khabarname {
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .emailHolder {
+        border-top: 1px solid var(--mainGold);
+        margin-top:-10px!important;
+        padding-bottom :15px !important;;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .contactHolder {
+        border-top: 1px solid var(--mainGold);
+        margin-top:-10px!important;
+        padding-bottom :15px !important;;
+    }
+}

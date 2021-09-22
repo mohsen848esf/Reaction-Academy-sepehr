@@ -1,0 +1,20 @@
+.serviceUnderline {
+    width: 4rem;
+    height: 0.3rem;
+    background: var(--mainGold);
+    margin: 1rem auto;
+  }
+  .textSize {
+      font-size: 0.9rem;
+  }
+
+  .serviceBack {
+      background : url(../../../assets/img/background2.svg) 50% 12%  no-repeat;
+      background-size: 90%;
+  }
+
+  @media only screen and (max-width: 991px) {
+    .serviceBack {
+        background: none;
+    }
+  }

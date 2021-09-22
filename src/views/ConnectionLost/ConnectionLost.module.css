@@ -1,0 +1,21 @@
+.imgSize {
+  width: 38% !important;
+}
+@media only screen and (max-width: 992px) {
+  .imgSize {
+    width: 45% !important;
+  }
+  .errorStyle {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .imgSize {
+    width: 55% !important;
+  }
+  .errorStyle {
+    font-size: 15px;
+  }
+}

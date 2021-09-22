@@ -1,0 +1,61 @@
+.imgSize {
+  width: 80px;
+  height: 80px;
+}
+.sendText {
+  border-right: 2px solid #bbb;
+  color: var(--textGray);
+  font-size: 12px !important;
+}
+.btnColor {
+  background: var(--mainGold) !important;
+  border: 1px solid var(--mainGold) !important;
+  font-size: 14px !important;
+}
+.btnColor:hover {
+  background: var(--mainWhite) !important;
+  color: var(--mainGold) !important;
+}
+.text {
+  font-size: 13px;
+}
+.smalltext {
+  font-size: 11px;
+  color:var(--secondGrey);
+}
+.commentAlert {
+  margin-top: 15%;
+}
+@media only screen and (max-width: 1200px) {
+  .commentAlert {
+    margin-top: 20%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .imgSize {
+    width: 70px;
+    height: 70px;
+  }
+  .commentAlert {
+    margin-top: 30%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .imgSize {
+    width: 65px;
+    height: 65px;
+  }
+  .commentAlert {
+    margin-top: 40%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .commentAlert {
+    margin-top: 45%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .commentAlert {
+    margin-top: 55%;
+  }
+}

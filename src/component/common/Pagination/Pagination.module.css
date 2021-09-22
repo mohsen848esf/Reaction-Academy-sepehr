@@ -1,0 +1,8 @@
+.pageColor {
+  color: #666565;
+  font-size: 14px!important;
+}
+
+.dontTouch {
+  cursor: not-allowed !important;
+}

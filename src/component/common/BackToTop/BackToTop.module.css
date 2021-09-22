@@ -1,0 +1,7 @@
+.toTop {
+  position: fixed;
+  bottom: 3%;
+  left: 1%;
+  z-index: 5000;
+  transition: 5s !important;
+}

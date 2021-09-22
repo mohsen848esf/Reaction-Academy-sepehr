@@ -1,0 +1,16 @@
+.pageSearchImg {
+    width: 700px;
+    height: 500px;
+}
+
+.pageSearchBtn {
+    background-color: var(--mainGold);
+    color: var(--mainWhite);
+    border: transparent;
+    border-radius: 10px 0 0 10px !important;
+}
+
+.pageSearchInput {
+    border: 1px solid var(--thirdBlack);
+    border-radius: 0 10px 10px 0 !important;
+}

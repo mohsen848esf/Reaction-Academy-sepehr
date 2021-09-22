@@ -1,0 +1,43 @@
+.formBtn {
+  background: var(--mainGreen)!important;
+  color: var(--mainWhite)!important;
+  font-size: 0.8rem!important;
+  border: 0 none !important;
+}
+
+.areaSize {
+  min-height: 20vh !important;
+  margin-bottom: 5px;
+}
+
+.textSize {
+  font-size: 0.9rem!important;
+}
+
+.zoomHolder {
+  bottom: 15%;
+}
+@media only screen and (max-width: 1200px) {
+  .zoomHolder {
+    bottom: 23%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .zoomHolder {
+    bottom: 15%;
+    right: 12%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .zoomHolder {
+    bottom: 22%;
+    right: 5%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .zoomHolder {
+    bottom: 28%;
+  }
+}
+

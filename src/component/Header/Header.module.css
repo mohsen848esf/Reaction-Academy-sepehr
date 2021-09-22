@@ -1,0 +1,126 @@
+.menu {
+  background: url("../../assets/img/Header-KhatChin.png");
+  background-position: 25% 95%;
+  background-size: 180px;
+  background-repeat: no-repeat;
+}
+
+.headBack {
+  background-color: var(--backWhite) !important;
+  background-size: 0px !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .menu {
+    background: none;
+  }
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.panelAvatar {
+  width: 30px;
+  height: 30px;
+}
+
+.search {
+  background-color: var(--mainGrey);
+  border-radius: 5px;
+  border: none;
+}
+
+.searchIconelogin {
+  color: var(--secondBlack);
+}
+
+.searchPanel {
+  background-color: var(--sidebarGreen);
+  border-radius: 5px;
+  border: none;
+}
+
+.searchPanell {
+  background-color: var(--sidebarGreen);
+  border-radius: 10px;
+  border: none;
+}
+
+.registerBtn {
+  background-color: var(--mainGold);
+  color: var(--mainWhite);
+  border: transparent;
+  border-radius: 5px 0 0 5px !important;
+}
+
+.loginBtn {
+  background-color: var(--mainGrey);
+  color: var(--mainGold);
+  border: transparent;
+  border-radius: 0 5px 5px 0 !important;
+}
+
+.accountBtn {
+  background-color: var(--sidebarGreen);
+  color: var(--mainWhite);
+  border: transparent;
+  border-radius: 5px !important;
+}
+
+.btnHolder {
+  background-color: var(--mainGrey);
+}
+
+.searchIcone {
+  color: var(--thirdBlack);
+}
+
+.searchIconePanel {
+  color: var(--mainWhite);
+}
+
+@media only screen and (max-width: 992px) {
+  .menu {
+    background-color: rgba(250, 250, 250, 0.733) !important;
+    /* box-shadow: 0px 0px 1px 0.5px #cac9c9; */
+    margin: 0px auto 15px auto !important;
+    padding: 5px !important;
+    /* border-radius: 5px; */
+  }
+  .navLink {
+    border-bottom: 1px solid #e9e8e8;
+  }
+  .navLink:hover {
+    background: var(--mainGold);
+    color: var(--mainWhite) !important;
+    border-bottom: 1px solid #e9e8e8;
+  }
+}
+
+.userPic {
+  width: 50px;
+  height: 50px;
+  background-color: var(--mainGrey);
+}
+
+.dropdown {
+  background: var(--mainGrey) !important;
+  border-radius: 10px;
+  color: var(--secondBlack) !important;
+  border: none;
+}
+
+.dropdownMenu {
+  font-size: 12px !important;
+  text-align: right;
+  z-index: 5000 !important;
+}
+
+.dropdownpanel {
+  background-color: var(--sidebarGreen);
+  color: var(--mainWhite);
+  border: transparent;
+  border-radius: 10px;
+}

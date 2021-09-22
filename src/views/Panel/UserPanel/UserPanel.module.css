@@ -1,0 +1,48 @@
+.main {
+  min-height: 500px;
+  height: auto;
+  margin-top: 70px;
+}
+
+.leftHolder {
+  border: 1px solid var(--mainPurple);
+  border-radius: 10px 3px 3px 10px;
+  padding-bottom: 80px;
+}
+.rightHolder {
+  background: var(--sidebarGreen);
+  border-radius: 3px 10px 10px 3px;
+  min-height: 700px;
+}
+@media only screen and (max-width: 992px) {
+  .leftHolder {
+    border-radius:5px;
+  }
+  .rightHolder {
+    border-radius:5px;
+  }
+}
+.profBox {
+  position: relative;
+  top: -50px;
+}
+.profile {
+  width: 100px;
+  height: 100px;
+}
+
+.icon{
+  width: 65px;
+  height: 35px;
+}
+.accardionHolder {
+  background: var(--sidebarGreen);
+  border-bottom: 0 none!important;
+}
+.navLink{
+  border:0 none!important; 
+  background: var(--sidebarGreen);
+} 
+.navItem {
+  margin-top: -5px!important;
+}

@@ -1,0 +1,21 @@
+.icon{
+    width: 65px;
+    height: 35px;
+}
+.accardionHolder {
+    background: var(--sidebarGreen);
+    border-bottom: 0 none!important;
+}
+@media only screen and (max-width: 992px) {
+    .accardionHolder {
+        margin-top:-40px !important;
+        text-align:center!important;
+    }
+  }
+.navLink{
+    border:0 none!important; 
+    background: var(--sidebarGreen);
+} 
+.navItem {
+    margin-top: -5px!important;
+}

@@ -1,0 +1,15 @@
+
+.formBtn {
+    background : var(--mainGreen)!important;
+    color: var(--mainWhite)!important;
+    font-size: 0.8rem!important;
+    border: 0 none !important;
+}
+.areaSize {
+    min-height: 20vh !important;
+    margin-bottom: 5px;
+  }
+
+  .textSize{
+    font-size: 0.9rem!important;
+  }

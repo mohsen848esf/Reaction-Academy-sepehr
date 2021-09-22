@@ -1,0 +1,8 @@
+.separator {
+    border: 0.3px solid var(--thirdBlack);
+}
+.separatorText {
+    background-color: var(--mainGrey);
+    margin-top:-1rem;
+    width: max-content;
+}

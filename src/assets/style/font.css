@@ -1,0 +1,24 @@
+@font-face {
+  font-family: IranSans;
+  src: url("../fonts/IRANSans.ttf");
+}
+@font-face {
+  font-family: IranSans-Light;
+  src: url("../fonts/IRANSANS_LIGHT.TTF");
+}
+@font-face {
+  font-family: IranSans-ULight;
+  src: url("../fonts/IRANSANS_ULTRALIGHT.TTF");
+}
+@font-face {
+  font-family: IranSans-Med;
+  src: url("../fonts/IRANSANS_MEDIUM.TTF");
+}
+@font-face {
+  font-family: IranSans-Bold;
+  src: url("../fonts/IRANSANS_BOLD.TTF");
+}
+@font-face {
+  font-family: Yekan;
+  src: url("../fonts/BYEKAN.TTF");
+}

@@ -1,0 +1,6 @@
+.deleteButton {
+    font-size: 10px !important;
+    background: var(--mainDanger);
+    border: none !important;
+  }
+  

@@ -1,0 +1,41 @@
+.courseTitleSize {
+  font-size: 12px;
+}
+.detailHead {
+  font-size: 13px;
+}
+.detailText {
+  font-size: 11px;
+}
+.badgeBack {
+  background: var(--mainGreen) !important;
+}
+.iconColor {
+  color: var(--mainGold) !important;
+}
+
+.relTitle {
+  font-size: 0.8rem !important;
+}
+.relyear {
+  font-size: 0.7rem !important;
+  color: var(--mainGold);
+}
+.circle {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: var(--secondGrey);
+  margin-bottom: -1.4rem;
+}
+.circleIcon {
+  color: var(--mainWhite);
+  font-size: 1.5rem !important;
+  cursor: pointer;
+}
+.imgSize {
+  height: 80%;
+  width: 80%;
+}
+.pleaseLogin {
+  background-color: #fce066ad ;
+}

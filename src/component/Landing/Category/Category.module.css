@@ -1,0 +1,8 @@
+.itemBackground {
+    background : var(--mainGrey);
+    height: max-content;
+    padding:2rem 0!important;
+}
+.imgSize {
+    width:30%;
+}

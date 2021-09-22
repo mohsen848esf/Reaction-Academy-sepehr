@@ -1,0 +1,20 @@
+.infoButton {
+  font-size: 9px !important;
+  background: #007bff;
+  border: none !important;
+}
+
+.secondaryButton {
+  font-size: 9px !important;
+  background: #6c757d;
+  border: none !important;
+  cursor: not-allowed !important;
+}
+
+.modalSize{
+  min-height: 500px;
+}
+
+.elementsCursor {
+  cursor: pointer;
+}

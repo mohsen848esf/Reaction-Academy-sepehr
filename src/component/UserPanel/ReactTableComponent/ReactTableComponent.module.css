@@ -1,0 +1,10 @@
+.tableHead {
+  background: var(--footerGreen);
+  color:var(--mainWhite);
+  border-radius: 10px!important;
+  font-size: 14px!important;
+}
+.tableBody {
+  font-size: 13px!important;
+  color:var(--secondBlack);
+}

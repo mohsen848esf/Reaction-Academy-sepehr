@@ -1,0 +1,18 @@
+.TopTeachersBtn {
+    background:var(--mainGold)!important;
+    color:var(--mainWhite)!important;
+    font-size: 0.7rem !important;
+    padding: 3px 11px !important;
+    outline:1px solid var(--mainGold)!important;
+}
+.TopTeachersBtn:hover {
+    background-color: var(--mainWhite)!important;
+    color:var(--mainGold)!important;
+}
+.teacherText {
+    font-size:0.7rem!important;
+    color: var(--secondBlack)!important;
+}
+.techerTitle {
+    font-size:0.8rem !important;
+}

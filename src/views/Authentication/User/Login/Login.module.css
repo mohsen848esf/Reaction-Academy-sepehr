@@ -1,0 +1,15 @@
+.mainBack {
+  background-color: var(--loginGreen);
+  height: auto;
+}
+.loginBack {
+  background-color: var(--mainWhite);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  height: auto;
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+}
+.inputBack {
+  background-color: var(--inputWhite) !important;
+  border-radius: 7px !important;
+}

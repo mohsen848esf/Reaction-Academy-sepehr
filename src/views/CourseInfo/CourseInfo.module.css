@@ -1,0 +1,20 @@
+.tabHeader {
+    background:var(--mainGrey)!important;
+    width:max-content!important;
+    cursor: pointer;
+}
+.active {
+    border-bottom: 3px solid var(--mainGold)!important;
+    border-radius: 0!important;
+}
+.tabLink {
+    color: var(--mainBlack)!important;
+}
+.tabContent {
+    background:var(--mainGrey)!important;
+    min-height: 520px;
+}
+.badgeBack {
+    background: var(--mainGold)!important;
+    font-size: 10px !important;
+}

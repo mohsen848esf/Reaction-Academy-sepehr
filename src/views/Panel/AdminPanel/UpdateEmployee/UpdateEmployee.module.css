@@ -1,0 +1,13 @@
+.profilText {
+  color: var(--secondBlack);
+  font-size: 14px;
+}
+.ButtonReg {
+  background: var(--mainGreen) !important;
+  border: none !important;
+  color: var(--mainWhite);
+}
+.Buttondel {
+  border: none !important;
+  background: var(--mainDanger) !important;
+}

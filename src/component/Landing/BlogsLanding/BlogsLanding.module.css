@@ -1,0 +1,30 @@
+.blogProgress {
+  width: 94%;
+  height: 10px;
+  background: var(--mainGrey);
+}
+.blogText {
+  font-size: 0.8rem;
+  margin-right: -1rem!important;
+  text-align:right!important;
+  }
+  @media only screen and (max-width: 768px) {
+    .blogText {
+      text-align:center!important;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .blogText {
+      margin-right: 0px!important;
+    }
+  }
+  @media only screen and (max-width: 1400px) {
+    .blogText {
+     margin-right: 5px!important;
+    }
+  }
+
+  .blogIcon{
+    cursor: pointer;
+    color :var(--secondBlack);
+  }

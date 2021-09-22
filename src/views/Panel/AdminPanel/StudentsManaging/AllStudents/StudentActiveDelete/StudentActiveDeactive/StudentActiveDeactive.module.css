@@ -1,0 +1,12 @@
+.deactiveButton {
+  font-size: 9px !important;
+  background: var(--mainOrange);
+  border: none !important;
+}
+
+
+.activeButton {
+  font-size: 9px !important;
+  background: var(--mainGreen);
+  border: none !important;
+}

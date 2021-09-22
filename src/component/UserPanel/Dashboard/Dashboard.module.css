@@ -1,0 +1,32 @@
+.card {
+  border-radius: 20px 20px 0 0 !important;
+  border: 1px solid #4d0b71 !important;
+}
+.minicard {
+  width: 95%;
+  height: 80%;
+  border-radius: 10px;
+  background-color: var(--sidebarGreen);
+  cursor: pointer;
+}
+.icon {
+  transition: 0.5s;
+  width:35%;
+
+}
+.minicard:hover{
+  box-shadow: 0px 0px 16px 0.5px #e0e0e0;
+}
+
+.minicard:hover > .icon {
+  transform: scale(1.2);
+}
+
+.font {
+  font-size: 15px;
+}
+@media only screen and (max-width: 970px) {
+  .font {
+    font-size: 14px;
+  }
+}

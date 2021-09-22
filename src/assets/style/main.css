@@ -1,0 +1,72 @@
+:root {
+  --mainBlue: #58bdb0;
+  --transparentBlue: #e6f0ff;
+  --mainWhite: #ffffff;
+  --backWhite: #fdfdfd;
+  --mainBlack: #1d1c1e;
+  --textBlack: #3a383a;
+  --mainGreen: #6aca56;
+  --mainGrey: #f0f0f0;
+  --mainPurple: #4f0e73;
+  --secondGrey: #a5a5a5;
+  --mainGold: #cca349;
+  --footerGreen: #338d81;
+  --loginGreen: #e5fcee;
+  --sidebarGreen: #46a194;
+  --inputWhite: #fdfdff;
+  --secondBlack: #4b4949;
+  --thirdBlack: #b4afaf;
+  --textGray: #837e7e;
+  --mainDanger: #dd4c4c;
+  --mainOrange: #e66f0f;
+}
+body {
+  font-family: IRANSans;
+  color: var(--mainBlack);
+}
+.rounded-7 {
+  border-radius: 7px;
+}
+.des-text {
+  color: var(--secondBlack) !important;
+}
+.textBlack {
+  color: var(--textBlack) !important;
+}
+.font-small {
+  font-size: 13px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-17 {
+  font-size: 17px;
+}
+.pointer {
+  cursor: pointer;
+}
+.navActive {
+  border-bottom: 3px solid var(--mainGold);
+}
+
+/* AdminPanel - SideBar - Icon */
+.c-sidebar-nav-dropdown .AdminsideBarIcons {
+  color: rgba(230, 230, 230, 0.5) !important;
+  transition: 0.1s;
+}
+.c-sidebar-nav-dropdown:hover .AdminsideBarIcons {
+  color: rgb(255, 255, 255) !important;
+  transition: 0.1s;
+}
+
+@media only screen and (max-width: 992px) {
+  .navLink {
+    border-bottom: 1px solid #e9e8e8;
+  }
+
+  .navLink:hover {
+    background: var(--mainGrey);
+    color: var(--mainGold) !important;
+    border-bottom: 1px solid #e9e8e8;
+  }
+}
